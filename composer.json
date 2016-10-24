@@ -1,5 +1,5 @@
 {
-    "name": "jkatzen/laravel-queue-monitor",
+    "name": "brandonferens/laravel-queue-monitor",
     "description": "Laravel queue monitoring tools",
     "require": {
         "laravel/framework": "~5.0",
@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "JKatzen\\QueueMonitor\\": "src/"
+            "BrandonFerens\\QueueMonitor\\": "src/"
         }
     }
 }
