@@ -9,21 +9,21 @@ Laravel version
 This branch and the `2.*` line of tags are for Laravel 5. For the Laravel 4
 version [see the laravel4 branch][l4] and the `1.*` line of tags.
 
-[l4]: https://github.com/J-Katzen/laravel-queue-monitor/tree/laravel4
+[l4]: https://github.com/brandonferens/laravel-queue-monitor/tree/laravel4
 
 Installation
 ------------
 
 Require it in your Laravel project:
 
-    composer require jkatzen/laravel-queue-monitor
+    composer require brandonferens/laravel-queue-monitor
 
 Register the service provider in your `config/app.php` file:
 
 ```php
 'providers' => [
     ...
-    JKatzen\QueueMonitor\ServiceProvider::class,
+    BrandonFerens\QueueMonitor\ServiceProvider::class,
 ],
 ```
 
